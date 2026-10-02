@@ -13,7 +13,7 @@ function Hero() {
         {/* Name & Desc & Skills */}
         <div className="flex flex-col items-center lg:items-start w-full lg:w-[50%] space-y-8 sm:space-y-10 py-15 font-Morabba-Bold">
           <h1 className="text-3xl md:text-5xl lg:text-6xl">
-            من امیرعلی خلیلی هستم
+            من پوریا فداکار هستم
           </h1>
           <h2 className="text-2xl md:text-3xl lg:text-4xl text-blue-500 ">
             <TypingEffect
