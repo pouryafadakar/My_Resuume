@@ -5,7 +5,7 @@ import TypingEffect from "../TypingEffect/TypingEffect";
 import rez from "../../assets/images/Portfolio/AmirAliKhalili.pdf";
 import me from "../../assets/images/Portfolio/me.webp"
 function Hero() {
-  const skills = ["طراح اپلیکیشن", "طراح سایت", "سئو", "تمامی خدمات مربوط به سایت"];
+  const skills = ["'گرافیست'", "متخصص هوش مصنوعی", "موشن گرافیست", "ui design"];
 
   return (
     <section id="hero" className="z-10 pt-15">
