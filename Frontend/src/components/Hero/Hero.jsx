@@ -3,7 +3,7 @@ import { FaDownload } from "react-icons/fa6";
 import toast, { Toaster } from "react-hot-toast";
 import TypingEffect from "../TypingEffect/TypingEffect";
 import rez from "../../assets/images/Portfolio/AmirAliKhalili.pdf";
-
+import me from "../../assets/images/Portfolio/me.webp"
 function Hero() {
   const skills = ["طراح اپلیکیشن", "طراح سایت", "سئو", "تمامی خدمات مربوط به سایت"];
 
@@ -51,8 +51,8 @@ function Hero() {
         <div className="h-fit w-[70%] lg:w-[40%]  bg-primary dark:bg-slate-800 rounded-4xl border border-slate-200 dark:border-slate-700 shadow-2xl box--shadow--effect">
           <img
             className="  w-full rounded-4xl"
-            src="https://pouryafadakar.github.io/My_Resuume/assets/me-DahVCaQB.webp"
-            alt=""
+            src={me}
+              alt=""
           />
         </div>
       </div>
